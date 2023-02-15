@@ -184,13 +184,15 @@ nav ul li a{
     background-color: rgb(218, 218, 218);
     text-align: center;
     width: 100%;
-    border-radius: 3px;
+    
     margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     
     background-size: 100%;
     background-image:url(iimg/bg1_工作區域\ 1.png); ;
-    background-position: 50%;
-    background-repeat: NONE;
+    background-position: 100%;
+    
 
 }
 .num{
@@ -212,14 +214,25 @@ nav ul li a{
     
     }
 
+    .leftpin{
+        width: 40rem;
+       
+        background-color: #3363ff;
+        border-radius: 25% 10% 25% 10%;
+        display: flex;
+    }
+    
+    
+
 .about{
     height: 300vh;
     display: flex;
     justify-content: center;
     background-color:  rgb(181, 181, 181);
-    background: url(iimg/bg1_工作區域\ 1.png);
+    background: url(iimg/whinba2.png);
     
 }
+
 .about-title{
     width:70%;
     height: 100vh;
@@ -232,24 +245,31 @@ nav ul li a{
     
 }
 
-.about-title h1{
-    position: absolute;
-    bottom: 12rem;
-    right: 10rem;
-    color: #ebebeb;
-    box-shadow: #000000;
-    box-shadow: 2cm;
-    
-}
+
 
 .about-title h2{
     display: none;
     
 }
-.about-title img{
-    border-radius: 5%;
-    width: 70%;
+
+
+.leftpinbox img{
+    width: 100%;
+    border-radius: 25% 10% 25% 10%;
+    display: flex;
+    
 }
+.leftpin h1{
+    
+    
+    color: #ffffff;
+    text-align: center;
+    border-radius: 1rem;
+    width: 16rem;
+    position: absolute;
+    bottom: 12rem;
+}
+    
 
 .about-pages{
     width: 50%;
@@ -257,8 +277,10 @@ nav ul li a{
     
 }
 .about-pages img{
-    width: 30rem;
-    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px rgb(209, 209, 209);
 }
 .about-pages div{
     height: 100vh;
@@ -269,29 +291,23 @@ nav ul li a{
    
 }
 
-.about-pages p{
-    color: #8f8f8f;
-    font-weight: 600;
-   
-    padding-top: 5rem;
-    border-radius: 2rem;
-    padding-bottom: 1rem;
-    margin-bottom: 5rem;
-}
+
 .about-pages div>p{
     width:80%;
+    color: #898989;
+    font-weight: 600;
 }
 
 .about-pages div:nth-child(1){
-   background-color: #e1e1e1;
+    background-color: #ebebeb;
 }
 .about-pages div:nth-child(2){
-    background-color: #e1e1e1;
+    background-color: #ebebeb;
 }
     
 
 .about-pages div:nth-child(3){
-    background-color: #e1e1e1;
+   background-color: #ebebeb;
 }
 
 
@@ -658,10 +674,10 @@ td {
 
    
     .sche2 h1 {
-        padding-top: 4rem;
-        padding-bottom: 2rem;
-        color: #ffffff;
-        background-color: rgb(218, 218, 218);
+        
+        color: #969696;
+        
+        
         
     }
     .sche2 img{
@@ -702,7 +718,7 @@ td {
 .intro p{
     color: #808080;
     padding-top: 1rem;
-    padding-bottom: 5rem;
+    
 }
 .full{
     margin: 0;
@@ -724,10 +740,17 @@ td {
     grid-gap: 6rem;
     padding-top:7rem;
     padding-bottom: 7rem;
-    
-    
-    
-   
+    z-index: 5; 
+    position: relative;
+  }
+
+  .bgcut{
+    z-index: 2;
+    position: absolute;
+    top:10rem;
+  }
+  .bgcut img{
+    height: 30rem;
   }
   
   .grid-item {
@@ -737,15 +760,18 @@ td {
     margin: 0 auto;
     transition: 0.2s;
     
+    
   }
   
   .grid-item:hover {
     transform: translateY(-0.5%);
     box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+    
   }
 
   .card{
     width: 100%;
+    
   }
   
   .card-img {
@@ -816,7 +842,11 @@ td {
     }
     .grid-item{
         width: 75%;
+        
     }
     
   
 }
+
+
+
