@@ -301,15 +301,16 @@ nav ul li a{
 }
 
 .about-pages div:nth-child(1){
-    background-color: #ebebeb;
+    
+    background: url("iimg/whihole.png") no-repeat left / cover;
 }
 .about-pages div:nth-child(2){
-    background-color: #ebebeb;
+    background: url("iimg/whihole.png") no-repeat left / cover;
 }
     
 
 .about-pages div:nth-child(3){
-   background-color: #ebebeb;
+    background: url("iimg/whihole.png") no-repeat left / cover;
 }
 
 
