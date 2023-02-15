@@ -190,8 +190,10 @@ nav ul li a{
     padding-bottom: 4rem;
     
     background-size: 100%;
-    background-image:url(iimg/bg1_工作區域\ 1.png); ;
+    
     background-position: 100%;
+
+    background: url("iimg/bg1_工作區域\ 1.png") no-repeat center / cover;
     
 
 }
@@ -229,7 +231,7 @@ nav ul li a{
     display: flex;
     justify-content: center;
     background-color:  rgb(181, 181, 181);
-    background: url(iimg/whinba2.png);
+    background: 55% url(iimg/whinba.png);
     
 }
 
@@ -273,7 +275,7 @@ nav ul li a{
 
 .about-pages{
     width: 50%;
-    background-color: rgb(127, 208, 181);
+    
     
 }
 .about-pages img{
