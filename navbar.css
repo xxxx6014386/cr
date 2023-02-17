@@ -133,6 +133,95 @@ nav ul li a{
     border-radius: 0.5rem;
 }
 
+.scrbg {
+    position: absolute;
+    z-index:10;
+}
+.scrbg2 {
+    position: absolute;
+    z-index: 1;
+    
+}
+.scrbg3 {
+    position: absolute;
+    z-index: 0.9;
+    
+}
+
+.scrbgwrap{
+    position: relative;
+
+    width: 100%;
+    height: 1rem;
+    
+}
+.scrbg4{
+   
+
+    background: url(iimg/g2.png) no-repeat left / cover;
+   width: 90rem;
+   height: 25rem;
+   bottom: -7rem;
+   position: absolute;
+   border-radius: 1rem;
+   
+   right:-10rem;
+   z-index: 4;
+}
+
+.scrbg5{
+   
+
+    background: url(iimg/g1.png) no-repeat right / cover;
+   width: 90rem;
+   height: 25rem;
+   border-radius: 1rem;
+   
+   position: absolute;
+   bottom: -4rem;
+   left: -25rem;
+   z-index: 3;
+   
+}
+
+.scrbgwrap2{
+    position: relative;
+
+    width: 5rem;
+    height: 1rem;
+    background-color: #3363ff;
+    
+}
+.scrbg6{
+   
+
+    background: url(iimg/g6.png) no-repeat left / cover;
+   width: 90rem;
+   height: 25rem;
+   bottom: 0rem;
+   position: absolute;
+   
+   
+   right:-10rem;
+   z-index: 4;
+}
+
+.scrbg7{
+   
+
+    background: url(iimg/g7.png) no-repeat left / cover;
+   width: 100rem;
+   height: 25rem;
+   bottom: 0rem;
+   position: absolute;
+   
+   
+   right:-40rem;
+   z-index: 3;
+   
+}
+
+
 a.active,a:hover{
     background-color:rgb(51, 206, 154);
     color: rgb(255, 255, 255);
@@ -399,6 +488,8 @@ nav ul li a{
         object-fit: cover;
         object-position: center ;
         }
+
+
     .checkbtn img{
         display:block;
         
@@ -444,6 +535,10 @@ nav ul li a{
     nav ul li{
         display: block;
         
+    }
+
+    .scrbg7{
+       right:-55rem; 
     }
     
     a:hover,a.active{
@@ -922,93 +1017,6 @@ td {
 
 }
 
-.scrbg {
-    position: absolute;
-    z-index:10;
-}
-.scrbg2 {
-    position: absolute;
-    z-index: 1;
-    
-}
-.scrbg3 {
-    position: absolute;
-    z-index: 0.9;
-    
-}
-
-.scrbgwrap{
-    position: relative;
-
-    width: 100%;
-    height: 1rem;
-    
-}
-.scrbg4{
-   
-
-    background: url(iimg/g2.png) no-repeat left / cover;
-   width: 90rem;
-   height: 25rem;
-   bottom: -7rem;
-   position: absolute;
-   border-radius: 1rem;
-   
-   right:-10rem;
-   z-index: 4;
-}
-
-.scrbg5{
-   
-
-    background: url(iimg/g1.png) no-repeat right / cover;
-   width: 90rem;
-   height: 25rem;
-   border-radius: 1rem;
-   
-   position: absolute;
-   bottom: -4rem;
-   left: -25rem;
-   z-index: 3;
-   
-}
-
-.scrbgwrap2{
-    position: relative;
-
-    width: 5rem;
-    height: 1rem;
-    background-color: #3363ff;
-    
-}
-.scrbg6{
-   
-
-    background: url(iimg/g6.png) no-repeat left / cover;
-   width: 90rem;
-   height: 25rem;
-   bottom: 0rem;
-   position: absolute;
-   
-   
-   right:-10rem;
-   z-index: 4;
-}
-
-.scrbg7{
-   
-
-    background: url(iimg/g7.png) no-repeat left / cover;
-   width: 100rem;
-   height: 25rem;
-   bottom: 0rem;
-   position: absolute;
-   
-   
-   right:-40rem;
-   z-index: 3;
-   
-}
 
 
 
