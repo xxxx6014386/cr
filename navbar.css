@@ -1,7 +1,7 @@
 
 body{font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;}
 body{
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(234, 234, 234);
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -24,7 +24,7 @@ only screen and (min-device-pixel-ratio: 1.5)
     box-sizing: border-box;
 }
 .logos{
-	background-color: rgb(225, 225, 225);   
+	background-color: rgb(234, 234, 234);   
 }
 .biglogo img{
     width: 3rem;
@@ -181,21 +181,34 @@ nav ul li a{
 
 .sche2{
 
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(234, 234, 234);
     text-align: center;
     width: 100%;
     
-    margin: 0 auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    
-    background-size: 100%;
-    
-    background-position: 100%;
+    margin: 0 auto;    
 
-    background: url("iimg/bg1_工作區域\ 1.png") no-repeat center / cover;
-    
+    overflow-x:hidden;
 
+}
+
+
+.bloc1 img{
+    width: 70rem;
+    height: 30rem;
+    position: absolute;
+    right: 0;
+    margin-top: 15rem;
+    
+}
+.bloc2 img{
+    width: 70rem;
+    height: 30rem;
+    position: absolute;
+    left: 0;
+    margin-top: 20rem;
+    
+    
+    
 }
 .num{
     
@@ -231,12 +244,12 @@ nav ul li a{
     display: flex;
     justify-content: center;
     background-color:  rgb(181, 181, 181);
-    background: 55% url(iimg/whinba.png);
+    background: 5% url(iimg/bg1.png);
     
 }
 
 .about-title{
-    width:70%;
+    width:50%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -302,16 +315,18 @@ nav ul li a{
 }
 
 .about-pages div:nth-child(1){
-    
-    background: url("iimg/whihole.png") no-repeat left / cover;
+    background-color: rgb(241, 241, 241);
+   
 }
 .about-pages div:nth-child(2){
-    background: url("iimg/whihole.png") no-repeat left / cover;
+
+    background-color: rgb(244, 244, 244);
+    
 }
     
 
 .about-pages div:nth-child(3){
-    background: url("iimg/whihole.png") no-repeat left / cover;
+    background-color: rgb(241, 241, 241);
 }
 
 
@@ -322,9 +337,10 @@ nav ul li a{
 
 .map{
     margin: 0 auto;
+    width: 80%;
 }
 .map iframe{
-    width: 70rem;
+    width: 100%;
     height: 40rem;
 }
 
@@ -360,13 +376,18 @@ nav ul li a{
     }
 
     .sche{
-        height: 30rem;
+        height: 15rem;
     }
+    .sche img{
+        
+        height: 50%;
+        
+        }
 
     .sche img{
         margin-top:5rem;
         object-fit: cover;
-        object-position:top 10px right -13rem;
+        object-position: center ;
         }
     .checkbtn img{
         display:block;
@@ -421,9 +442,10 @@ nav ul li a{
         height: 15rem;
     }
     nav{
-        z-index: 10;
+        
         position: fixed;
         width: 100%;
+        z-index: 100;
         
     }
     nav ul{
@@ -535,9 +557,10 @@ nav ul li a{
         
         
         background-size: 10%;
-        background-image:url(iimg/bg1_工作區域\ 1.png); ;
-        background-position: 50%;
+       
+        background-position: 70%;
         background-repeat: NONE;
+        
 
     }
     
@@ -680,6 +703,7 @@ td {
     .sche2 h1 {
         
         color: #969696;
+        padding-top: 9rem;
         
         
         
@@ -688,15 +712,29 @@ td {
         border-radius: 50%;
         width: 300px;
         padding-top: 2REM;
+        padding-bottom: 2rem;
+        transition:width 1s,height 1s;
+        position: sticky;
+        z-index: 5;
         
     }
+    
+    .hoverdoc:hover{
+        
+        width:305px;
+        
+        }
     
     .callnum{
         text-align: center;
         background-color: rgb(46, 191, 143);
         color: #FFF;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        
+        
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        height: 6rem;
     }
    .num{
     display: none;
@@ -715,13 +753,18 @@ td {
     margin: 0 auto;
 }
 .intro h2{
-    color: #616161;
-    padding-top: 1rem;
+    color: #919191;
+    
     padding-bottom: 1rem;
+    position: relative;
+    z-index: 5;
 }
 .intro p{
-    color: #808080;
+    color: #ffffff;
     padding-top: 1rem;
+    padding-bottom: 9rem;
+    position: relative;
+    z-index: 5;
     
 }
 .full{
@@ -729,12 +772,13 @@ td {
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    background-color: #eee;
+    background-color: #ffffff;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   background: url(iimg/bg3.png);
+  
   
 }
 
@@ -746,6 +790,7 @@ td {
     padding-bottom: 7rem;
     z-index: 5; 
     position: relative;
+    
   }
 
   .bgcut{
@@ -851,6 +896,112 @@ td {
     
   
 }
+.sche{
+    margin-bottom: 30rem;
+}
+@media(max-width :1100px){
+    .sche{
+        margin-bottom: 15rem;
+    }
+
+}
+
+.scrbg {
+    position: absolute;
+    z-index:10;
+}
+.scrbg2 {
+    position: absolute;
+    z-index: 1;
+    
+}
+.scrbg3 {
+    position: absolute;
+    z-index: 0.9;
+    
+}
+
+.scrbgwrap{
+    position: relative;
+
+    width: 100%;
+    height: 1rem;
+    
+}
+.scrbg4{
+   
+
+    background: url(iimg/g2.png) no-repeat left / cover;
+   width: 90rem;
+   height: 25rem;
+   bottom: -7rem;
+   position: absolute;
+   border-radius: 1rem;
+   
+   right:-10rem;
+   z-index: 4;
+}
+
+.scrbg5{
+   
+
+    background: url(iimg/g1.png) no-repeat right / cover;
+   width: 90rem;
+   height: 25rem;
+   border-radius: 1rem;
+   
+   position: absolute;
+   bottom: -4rem;
+   left: -25rem;
+   z-index: 3;
+   
+}
+
+.scrbgwrap2{
+    position: relative;
+
+    width: 5rem;
+    height: 1rem;
+    background-color: #3363ff;
+    
+}
+.scrbg6{
+   
+
+    background: url(iimg/g6.png) no-repeat left / cover;
+   width: 90rem;
+   height: 25rem;
+   bottom: 0rem;
+   position: absolute;
+   
+   
+   right:-10rem;
+   z-index: 4;
+}
+
+.scrbg7{
+   
+
+    background: url(iimg/g7.png) no-repeat left / cover;
+   width: 100rem;
+   height: 25rem;
+   bottom: 0rem;
+   position: absolute;
+   
+   
+   right:-40rem;
+   z-index: 3;
+   
+}
+
+
+
+
+
+
+
+
+
 
 
 
