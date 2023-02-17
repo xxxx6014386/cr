@@ -60,6 +60,15 @@ only screen and (min-device-pixel-ratio: 1.5)
     
 }
 
+.sche2 h1 {
+        
+    color: #969696;
+    padding-top: 9rem;
+    
+    
+    
+}
+
 .owl-item{
     width: 100vh;
     
@@ -366,9 +375,10 @@ nav ul li a{
 @media(max-width:858px){
     nav{
         background-color: rgb(245, 245, 245);
-        height: 90px;
+        height: 0rem;
         width: 100%;
         z-index: 11;
+        display: block;
     }
     label.logo{
         padding-left: 20px;
@@ -376,7 +386,7 @@ nav ul li a{
     }
 
     .sche{
-        height: 15rem;
+        height: 5rem;
     }
     .sche img{
         
@@ -385,7 +395,7 @@ nav ul li a{
         }
 
     .sche img{
-        margin-top:5rem;
+        
         object-fit: cover;
         object-position: center ;
         }
@@ -393,6 +403,11 @@ nav ul li a{
         display:block;
         margin-top:1.8rem;
         margin-right:1.6rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        z-index: 10;
+        position: absolute;
+        right: 0;
     }
     .owl-stage-outer{
         height:15rem;
@@ -417,7 +432,7 @@ nav ul li a{
         width: 100%;
         height: 100vh;
         background-color: rgb(227, 227, 227);
-        top:5.6rem;
+        top:0rem;
         left: 0;
         text-align: center;
         left:-100%;
@@ -469,11 +484,16 @@ nav ul li a{
      }
 
      .biglogo img{
-        width: 3.2rem;
+        width: 3rem;
         padding-top: 1.4rem;
         padding-left: 1rem;
         margin-left: 0.8rem;
        
+    }
+
+    .map{
+        width: 18rem;
+        
     }
 
     .sche p{
@@ -552,16 +572,18 @@ nav ul li a{
        border-radius: 1rem;
     }
     
-    .sche2{
-
+    .sche2 {
+      
+        display: block;
         
-        
-        background-size: 10%;
-       
-        background-position: 70%;
-        background-repeat: NONE;
         
 
+    }
+    .sche2 h1{
+        padding-top: 7rem;
+    }
+    .card-content p{
+        color: #616161;
     }
     
     
@@ -700,14 +722,7 @@ td {
     }
 
    
-    .sche2 h1 {
-        
-        color: #969696;
-        padding-top: 9rem;
-        
-        
-        
-    }
+    
     .sche2 img{
         border-radius: 50%;
         width: 300px;
