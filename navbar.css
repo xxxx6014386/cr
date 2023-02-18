@@ -36,6 +36,12 @@ only screen and (min-device-pixel-ratio: 1.5)
    
 }
 
+.sche h1{
+   position: absolute;
+   top: -5;
+    
+}
+
 .firstform{
     width: 90%;
     height:50%;
@@ -61,6 +67,8 @@ only screen and (min-device-pixel-ratio: 1.5)
     font-size: 1.5rem;
     
 }
+
+
 
 .sche2 h1 {
         
@@ -1115,7 +1123,11 @@ td {
  .top1{display: none;}
 
     
+
+ 
 }
+
+
     
     
   
