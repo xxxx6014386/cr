@@ -679,8 +679,12 @@ nav ul li a{
          
          padding-left: 5%;
          padding-right: 5%;
-         
-         color: white; text-shadow: rgb(82, 82, 82) 0.1em 0.1em 0.2em
+         padding-top: 1rem;
+         padding-bottom: 1rem;
+         background-color: #e6e6e6;
+         box-shadow: none;
+         border-radius: 5%;
+         color: white; 
         
         }
 
