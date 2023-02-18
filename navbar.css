@@ -508,7 +508,29 @@ nav ul li a{
         object-fit: cover;
         object-position: center ;
         }
+        .sche h1{
 
+   
+            font-weight: 700;
+           
+           
+            z-index: 10;
+            font-size: 2rem;
+           position: absolute;
+           padding: 15%;
+           bottom: 9rem;
+           background-color: rgb(14, 177, 139);
+           
+            
+           
+            color: white;
+            
+        }
+
+        .sche p{
+
+            display: none;
+        }
 
     .checkbtn img{
         display:block;
@@ -546,7 +568,7 @@ nav ul li a{
         margin: 0 auto;
         margin-top: 5rem;
         position: absolute;
-        bottom: 3rem;
+        bottom: 2rem;
         left: 0;
         right: 0;
         border: rgb(136, 136, 136) 0.1rem solid;
@@ -668,25 +690,7 @@ nav ul li a{
         
     }
 
-    .sche p{
-        
-        color: #ffffff;
-            
-        font-weight: 700;
-         display: flex;
-         margin: 0 auto;
-         font-size: 3rem;
-         
-         padding-left: 5%;
-         padding-right: 5%;
-         padding-top: 1rem;
-         padding-bottom: 1rem;
-         background-color: #e6e6e6;
-         box-shadow: none;
-         border-radius: 5%;
-         color: white; 
-        
-        }
+    
 
     .about{
        display: none;
@@ -1103,8 +1107,12 @@ td {
 
   
 
-  .top{
-    opacity: 0;}
+@media(min-width :900px){
+ .top1{display: none;}
+
+    
+}
+    
     
   
 
